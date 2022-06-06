@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+
+<header>
+  <meta charset="UTF-8" />
+  </div> <!-- End Nav Bar RT -->
+  <title>Results!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-headphones"></i> Features</a>
+  <a href="#"><i class="fa fa-fw fa-hand-peace-o"></i> About Us</a>
+</div>
+<!-- Link CSS RT -->
+</header>
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    background-color: #6457b4;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #a69ee0;
+  }
+  
+  .active {
+    background-color: #6457b4;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  </style>
+
+ <!-- End Nav Bar RT -->
+ <body>
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="lg:text-center">
+            <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Fans Only</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Look at what we found!</p>
+          </div>
+      
+          <div class="mt-10">
+            <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+              <div class="relative">
+                <dt>
+                  <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <!-- fontawesome: apple icon -->
+                    <a href="#"><i class="fa fa-2x fa-fw fa-apple"></i></a>  
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Apple music results here!</p>
+                </dt>
+              </div>
+      
+              <div class="relative">
+                <dt>
+                  <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <!-- fontawesome: youtube icon -->
+                    <a href="#"><i class="fa fa-2x fa-fw fa-youtube"></i></a>
+                  </div>
+                  <p id="youtube" class="ml-16 text-lg leading-6 font-medium text-gray-900">Youtube results here!</p>
+                  <!-- <video width="50%" height="400px" id="youtube"></video> -->
+                </dt>
+              </div>
+      
+              <div class="relative">
+                <dt>
+                  <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <!-- fontawesome: spotify icon -->
+                    <a href="#"><i class="fa fa-2x fa-fw fa-spotify"></i></a>
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Spotify results here!</p>
+                </dt>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </body>
+
+<script src="script.js"></script>
+
+</html>
